@@ -1,0 +1,25 @@
+{
+    "name": "resource-guard",
+    "version": "0.1.0",
+    "description": "Monitor a Node.js process and exit if it consumes too much memory or time.",
+    "author": {
+      "name": "Simon Best",
+        "email": "simonjbest@gmail.com"
+    },
+    "keywords": [
+        "guard",
+        "sandbox",
+        "vm"
+    ],
+    "repository": {
+      "type": "git",
+        "url": "https://github.com/beest/resource-guard.git"
+    },
+    "main": "./lib/resource-guard",
+    "engines": {
+      "node": ">=0.12.0"
+    },
+    "dependencies": {
+        "bindings": "*"
+    }
+}
