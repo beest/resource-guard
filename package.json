@@ -1,6 +1,6 @@
 {
     "name": "resource-guard",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Monitor a Node.js process and exit if it consumes too much memory or time.",
     "author": {
       "name": "Simon Best",
